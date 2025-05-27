@@ -56,7 +56,7 @@ def generate_launch_description():
 
     declare_controller_arg = DeclareLaunchArgument(
         'CONTROLLER',
-        default_value="'grasp'",
+        default_value="grasp",
         description='Specify which controller to use: grasp, pd'
     )
 
