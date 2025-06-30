@@ -458,7 +458,7 @@
   <link name="link_12.0">
     <visual>
       <geometry>
-        <mesh filename="package://allegro_hand_description/meshes/link_12.0_left.STL"/>
+        <mesh filename="package://allegro_hand_description/meshes/link_12.0_left.obj"/>
       </geometry>
       <material name="black">
         <color rgba=".2 .2 .2 1"/>
