@@ -28,6 +28,12 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4"/>
     </inertial>
   </link>
+  <link name="wrist"/>
+  <joint name="wrist_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 -0.095"/>
+    <parent link="palm_link"/>
+    <child link="wrist"/>
+  </joint>
   <!-- ============================================================================= -->
   <!-- END THUMB MACRO -->
   <!-- [LINK 0, 4, 8] -->
@@ -448,7 +454,7 @@
   <link name="link_12">
     <visual>
       <geometry>
-        <mesh filename="package://allegro_hand_description/meshes/link_12.0_left.STL"/>
+        <mesh filename="package://allegro_hand_description/meshes/link_12.0_left.obj"/>
       </geometry>
       <material name="black">
         <color rgba=".2 .2 .2 1"/>
