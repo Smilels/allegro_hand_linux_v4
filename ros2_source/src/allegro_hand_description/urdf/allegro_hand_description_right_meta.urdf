@@ -116,7 +116,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_0.0" type="revolute">
+  <joint name="allegro_joint_0.0" type="revolute">
     <axis xyz="0 0 1" />
     <limit effort="15" lower="-0.47" upper="0.47" velocity="7" />
     <parent link="palm_link" />
@@ -144,7 +144,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_1.0" type="revolute">
+  <joint name="allegro_joint_1.0" type="revolute">
     <limit effort="15" lower="-0.19599999999999998" upper="1.6099999999999999" velocity="7" />
     <axis xyz="0 1 0" />
     <parent link="link_0" />
@@ -172,7 +172,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_2.0" type="revolute">
+  <joint name="allegro_joint_2.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.17400000000000002" upper="1.7089999999999999" velocity="7" />
     <parent link="link_1" />
@@ -200,7 +200,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_3.0" type="revolute">
+  <joint name="allegro_joint_3.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.227" upper="1.6179999999999999" velocity="7" />
     <parent link="link_2" />
@@ -230,7 +230,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_3_tip" type="fixed">
+  <joint name="allegro_joint_3_tip" type="fixed">
     <parent link="link_3" />
     <child link="link_3_tip" />
     <origin rpy="0 0 0" xyz="0 0 0.026699999999999998" />
@@ -255,7 +255,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_4.0" type="revolute">
+  <joint name="allegro_joint_4.0" type="revolute">
     <axis xyz="0 0 1" />
     <limit effort="15" lower="-0.47" upper="0.47" velocity="7" />
     <parent link="palm_link" />
@@ -283,7 +283,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_5.0" type="revolute">
+  <joint name="allegro_joint_5.0" type="revolute">
     <limit effort="15" lower="-0.19599999999999998" upper="1.6099999999999999" velocity="7" />
     <axis xyz="0 1 0" />
     <parent link="link_4" />
@@ -311,7 +311,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_6.0" type="revolute">
+  <joint name="allegro_joint_6.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.17400000000000002" upper="1.7089999999999999" velocity="7" />
     <parent link="link_5" />
@@ -339,7 +339,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_7.0" type="revolute">
+  <joint name="allegro_joint_7.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.227" upper="1.6179999999999999" velocity="7" />
     <parent link="link_6" />
@@ -369,7 +369,7 @@
       <inertia ixx="9.68e-07" ixy="0" ixz="0" iyy="9.68e-07" iyz="0" izz="9.68e-07" />
     </inertial>
   </link>
-  <joint name="joint_7_tip" type="fixed">
+  <joint name="allegro_joint_7_tip" type="fixed">
     <parent link="link_7" />
     <child link="link_7_tip" />
     <origin rpy="0 0 0" xyz="0 0 0.026699999999999998" />
@@ -394,7 +394,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_8.0" type="revolute">
+  <joint name="allegro_joint_8.0" type="revolute">
     <axis xyz="0 0 1" />
     <limit effort="15" lower="-0.47" upper="0.47" velocity="7" />
     <parent link="palm_link" />
@@ -422,7 +422,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_9.0" type="revolute">
+  <joint name="allegro_joint_9.0" type="revolute">
     <limit effort="15" lower="-0.19599999999999998" upper="1.6099999999999999" velocity="7" />
     <axis xyz="0 1 0" />
     <parent link="link_8" />
@@ -450,7 +450,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_10.0" type="revolute">
+  <joint name="allegro_joint_10.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.17400000000000002" upper="1.7089999999999999" velocity="7" />
     <parent link="link_9" />
@@ -478,7 +478,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_11.0" type="revolute">
+  <joint name="allegro_joint_11.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.227" upper="1.6179999999999999" velocity="7" />
     <parent link="link_10" />
@@ -508,7 +508,7 @@
       <inertia ixx="9.68e-07" ixy="0" ixz="0" iyy="9.68e-07" iyz="0" izz="9.68e-07" />
     </inertial>
   </link>
-  <joint name="joint_11_tip" type="fixed">
+  <joint name="allegro_joint_11_tip" type="fixed">
     <parent link="link_11" />
     <child link="link_11_tip" />
     <origin rpy="0 0 0" xyz="0 0 0.026699999999999998" />
@@ -536,7 +536,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_12.0" type="revolute">
+  <joint name="allegro_joint_12.0" type="revolute">
     <axis xyz="-1 0 0" />
     <limit effort="15" lower="0.263" upper="1.396" velocity="7" />
     <parent link="palm_link" />
@@ -566,7 +566,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_13.0" type="revolute">
+  <joint name="allegro_joint_13.0" type="revolute">
     <axis xyz="0 0 1" />
     <limit effort="15" lower="-0.10499999999999998" upper="1.1629999999999998" velocity="7" />
     <parent link="link_12" />
@@ -594,7 +594,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_14.0" type="revolute">
+  <joint name="allegro_joint_14.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.18899999999999997" upper="1.644" velocity="7" />
     <parent link="link_13" />
@@ -624,7 +624,7 @@
       <inertia ixx="1e-4" ixy="0.0" ixz="0.0" iyy="1e-4" iyz="0.0" izz="1e-4" />
     </inertial>
   </link>
-  <joint name="joint_15.0" type="revolute">
+  <joint name="allegro_joint_15.0" type="revolute">
     <axis xyz="0 1 0" />
     <limit effort="15" lower="-0.162" upper="1.7189999999999999" velocity="7" />
     <parent link="link_14" />
